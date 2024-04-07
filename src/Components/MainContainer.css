@@ -1,0 +1,17 @@
+.mainContainer{
+    width:  100%;
+    height: calc(100%-45px);
+    display: flex;
+    padding-top: 15px;
+}
+
+.mainContainer .left{
+    width: calc(100% - 30%);
+    overflow-y: scroll;
+    transition: all 0.3s cubic-bezier(.17,.81,.39,1.31);
+}
+
+.mainContainer .right{
+    width: calc(100% - 70%);
+    
+}
